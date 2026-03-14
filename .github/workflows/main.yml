@@ -1,0 +1,35 @@
+auditmind-platform/
+│
+├── index.html
+├── README.md
+│
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── logos/
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   ├── app.js
+│   ├── scoring.js
+│   ├── report.js
+│   └── ui.js
+│
+├── data/
+│   ├── questions.json
+│   ├── frameworks.json
+│   ├── scoring.json
+│   └── companies.json
+│
+├── companies/
+│   ├── demo-bank/
+│   │   ├── index.html
+│   │   └── company.json
+│   └── fintech-demo/
+│       ├── index.html
+│       └── company.json
+│
+└── reports/
+    └── sample-report.html
