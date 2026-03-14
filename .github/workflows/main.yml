@@ -1,35 +1,47 @@
 auditmind-platform/
 │
-├── index.html
-├── README.md
+├── public/
+│   ├── index.html
+│   ├── assessment.html
+│   └── report.html
 │
 ├── assets/
-│   ├── images/
-│   ├── icons/
-│   └── logos/
 │
 ├── css/
-│   └── style.css
 │
 ├── js/
 │   ├── app.js
+│   ├── assessment.js
 │   ├── scoring.js
-│   ├── report.js
-│   └── ui.js
+│   └── report.js
 │
 ├── data/
-│   ├── questions.json
-│   ├── frameworks.json
-│   ├── scoring.json
-│   └── companies.json
+│   ├── frameworks/
+│   │   ├── cobit/
+│   │   │   ├── governance.json
+│   │   │   ├── risk_management.json
+│   │   │   └── controls.json
+│   │   │
+│   │   ├── iso27001/
+│   │   │   ├── access_control.json
+│   │   │   ├── asset_management.json
+│   │   │   └── incident_management.json
+│   │   │
+│   │   ├── nist/
+│   │   │   ├── identify.json
+│   │   │   ├── protect.json
+│   │   │   ├── detect.json
+│   │   │   ├── respond.json
+│   │   │   └── recover.json
+│   │   │
+│   │   └── central_bank/
+│   │       └── cyber_controls.json
+│   │
+│   ├── scoring/
+│   │   └── scoring_model.json
+│   │
+│   └── companies/
+│       ├── demo-bank.json
+│       └── fintech-demo.json
 │
-├── companies/
-│   ├── demo-bank/
-│   │   ├── index.html
-│   │   └── company.json
-│   └── fintech-demo/
-│       ├── index.html
-│       └── company.json
-│
-└── reports/
-    └── sample-report.html
+└── README.md
